@@ -396,7 +396,6 @@ public class PanelQuests extends Panel
 			if (treeGui.file.canEdit())
 			{
 				theme.pushFontUnicode(true);
-
 				RenderSystem.pushMatrix();
 				RenderSystem.translatef(0F, 0F, 600F);
 				theme.drawString("X:" + (questX < 0 ? "" : " ") + StringUtils.DOUBLE_FORMATTER_00.format(questX), x + 3, y + h - 18, Theme.SHADOW);
